@@ -31,11 +31,21 @@ Go · PostgreSQL · Temporal · Ollama (local)
 
 ## Prerequisites
 
+Machine-level tools are declared in the `Brewfile`. One command bootstraps a machine:
+
+```sh
+brew bundle
+```
+
 - Go 1.27.3
 - colima and the Docker CLI
 - gh
 - Temporal CLI
-- Ollama — local models, used by the investigator; not needed until week 6
-- uv — installed via its [official installer](https://docs.astral.sh/uv/), not Homebrew
+- uv 0.13.6
+- Ollama — needed from week 6, safe to skip until then
 
-Install the Homebrew-managed ones with `brew bundle`.
+Update a tool with `brew upgrade <tool>`. Add a new one by editing `Brewfile` by hand —
+do not regenerate it with `brew bundle dump`, which captures the whole machine.
+
+Do not run `uv self update`. It installs a copy outside Homebrew and silently breaks the
+single-owner rule, which is why `brew bundle` is the only supported path.
