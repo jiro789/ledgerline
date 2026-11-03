@@ -49,3 +49,7 @@ do not regenerate it with `brew bundle dump`, which captures the whole machine.
 
 Do not run `uv self update`. It installs a copy outside Homebrew and silently breaks the
 single-owner rule, which is why `brew bundle` is the only supported path.
+
+`brew bundle check` also fails when a tool is installed but out of date, so a red check with
+everything present usually just means `brew upgrade <tool>`. That is normal drift, not a
+broken setup.
