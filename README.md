@@ -28,3 +28,14 @@ The point is the reconciliation logic and the audit trail, not the integrations.
 ## Stack
 
 Go · PostgreSQL · Temporal · Ollama (local)
+
+## Prerequisites
+
+- Go 1.27.3
+- colima and the Docker CLI
+- gh
+- Temporal CLI
+- Ollama — local models, used by the investigator; not needed until week 6
+- uv — installed via its [official installer](https://docs.astral.sh/uv/), not Homebrew
+
+Install the Homebrew-managed ones with `brew bundle`.
