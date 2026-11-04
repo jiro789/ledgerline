@@ -6,6 +6,7 @@
 brew "go"
 brew "colima"
 brew "docker"
+brew "docker-compose"
 brew "gh"
 brew "temporal"
 brew "ollama"
