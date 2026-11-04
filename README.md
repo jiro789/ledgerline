@@ -41,7 +41,7 @@ brew bundle
 - colima and the Docker CLI
 - gh
 - Temporal CLI
-- uv 0.13.6
+- uv 0.13.7
 - Ollama — needed from week 6, safe to skip until then
 
 Update a tool with `brew upgrade <tool>`. Add a new one by editing `Brewfile` by hand —
