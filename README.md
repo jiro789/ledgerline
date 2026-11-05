@@ -9,6 +9,13 @@ and the gaps cost real money and real hours.
 Ledgerline matches what can be matched, classifies what cannot, heals only the
 classes that are provably safe, and explains the rest.
 
+New to payments? Read [diagram.md](diagram.md) first — it walks through the whole chain
+from the customer's card to the merchant's bank account, and explains why the same money
+gets recorded three times.
+
+New to accounting? Read [accounting.md](accounting.md) — debits, credits, accrual,
+clearing accounts, materiality, and the rest, explained for engineers.
+
 **Status: very early.** Built in public. Nothing works yet — this README grows as
 the system does.
 
